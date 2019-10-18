@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item value="false" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<item value="true" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="true" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\Ville\Documents\ESP\FreeRTOS"/>
+			<item value="C:\Users\Ville\Documents\ESP\lpc_board_nxp_lpcxpresso_1549"/>
+			<item value="C:\Users\Ville\Documents\ESP\lpc_chip_15xx"/>
+			<item value="C:\Users\Ville\Documents\ESP\plotter"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+	<section name="com.crt.quickstart.views.wizards.examples.QSExampleSelectionPage">
+		<item value="C:\Users\Ville\Documents\ESP\FreeRTOS" key="dirname"/>
+	</section>
+</section>

@@ -1,0 +1,33 @@
+/*
+ * Motor.cpp
+ *
+ *  Created on: 3.10.2019
+ *      Author: jaakk
+ */
+
+#include "Motor.h"
+
+void Motor::move(bool direction) {
+    if (calibrated == false) {
+        DipDirection.write(direction);
+        motor.write(true);
+    }
+    if (calibrated) {
+        if (limitSwitch1.read() && limitSwitch2.read() ) {
+            DipDirection.write(direction);
+            motor.write(true);
+        }
+    }
+}
+void Motor::stop(bool direction) {
+    if (calibrated == false) {
+        DipDirection.write(direction);
+        motor.write(false);
+    }
+    if (calibrated) {
+        if (limitSwitch1.read() && limitSwitch2.read() ) {
+            DipDirection.write(direction);
+            motor.write(false);
+        }
+    }
+}
